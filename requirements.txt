@@ -1,0 +1,6 @@
+flask
+pymongo[srv]
+
+# versions
+# Flask==3.0.3
+# pymongo==4.10.1
