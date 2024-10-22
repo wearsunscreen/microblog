@@ -6,10 +6,11 @@ source venv/bin/activate
 pip install flask
 export FLASK_APP=app.py
 export FLASK_DEBUG=1
+pip install pymongo[srv]
+
 flask run
 '''
 
 ## Mongo DBU
 
-mongodb+srv://wearsunscreen:<db_password>@cluster0.ivgo2.mongodb.net/
-password=cpw_domain+cpw_user
+mongodb+srv://wearsunscreen:Brillig55@cluster0.ivgo2.mongodb.net/
